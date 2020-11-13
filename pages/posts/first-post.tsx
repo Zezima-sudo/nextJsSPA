@@ -8,7 +8,7 @@ const FirstPost = () => {
 
     return (
         
-    <Layout>
+    <Layout home>
         <div>
             <Head>
                 <title>This is my first post</title>
