@@ -3,25 +3,49 @@ import Layout, { siteTitle } from '../components/layout'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import utilStyles from '../styles/utils.module.css'
+import { getSortedPostsData } from '../lib/posts'
 
-export default function Home() {
+
+// var json = require('json')
+
+export async function getStaticProps() {
+  // const allData = await import('../lib/posts')
+  const allPostsData = getSortedPostsData()
+  // const value = JSON.parse(JSON.stringify(allData));
+   
+    return {
+      props: {
+        allPostsData
+      }
+    }
+  
+  }
+
+
+export default function Home({ allPostsData }) {
   const router = useRouter()
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>Hey, I'm Eric. I'm a full stack web dev and musician. I believe the answers to the toughest problems are found in creative thinking with little fear of failure.</p>
-        <p>
-          I built this website using Next.js and TypeScript. 
-         
-          <div>
-          {router.pathname == '/' ? <Link href='posts/first-post'><a> Here's what else I've made recently.</a></Link> : 'error'}
-          </div>
-         
-        </p>
+      <section className={utilStyles.headingMd}></section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <ul className={utilStyles.list}>
+          {allPostsData.map(({ id, date, title }) => (
+            <li className={utilStyles.listItem} key={id}>
+              {title}
+              <br />
+              {id}
+              <br />
+              {date}
+            </li>
+          ))}
+        </ul>
       </section>
     </Layout>
   )
+  
 }
+
