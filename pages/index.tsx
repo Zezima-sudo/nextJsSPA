@@ -1,15 +1,16 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import Date from '../components/date'
-import { useRouter } from 'next/router'
 import Link from 'next/link'  
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
+import { GetStaticProps, GetStaticPaths, GetServerSideProps } from 'next'
+
 
 
 // var json = require('json')
 
-export async function getStaticProps() {
+export async function getStaticProps () {
   // const allData = await import('../lib/posts')
   const allPostsData = getSortedPostsData()
   // const value = JSON.parse(JSON.stringify(allData));
