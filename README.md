@@ -4,9 +4,9 @@ https://next-js-spa.vercel.app/
 
 ## Endpoints
 ```
-*
-- https://next-js-spa.vercel.app/
-- https://next-js-spa.vercel.app/posts/ssg-ssr
-- https://next-js-spa.vercel.app/posts/pre-rendering
-- https://next-js-spa.vercel.app/api/hello
+
+- [https://next-js-spa.vercel.app/
+- [https://next-js-spa.vercel.app/posts/ssg-ssr
+- [https://next-js-spa.vercel.app/posts/pre-rendering
+- [https://next-js-spa.vercel.app/api/hello
 ```
