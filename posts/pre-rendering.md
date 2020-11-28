@@ -1,11 +1,12 @@
 ---
-title: 'Two Forms of Pre-rendering'
+title: 'Solidity Yield Farming dApp'
 date: '2020-01-01'
 ---
 
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+I built a simple yield farming dApp that utilizes React/Typescript for the front end and Truffle/Solidity for the deployment/compiling of smart contracts. 
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
-- **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
+To build the app I created two cryptocurrencies: One is **mDai**, a simple stable coin pegged to a dollar, and the other is **Dapp**, a token used to reward our dApp's liquidity farmers. 
 
-Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+A user (on the Ganache testnet) may deposit "mDai" and begin receiving compounding interest paid out in the form of **Dapp* token.
+
+I tested contracts using mocha/chai and used Typescript for enhanced security. 
