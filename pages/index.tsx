@@ -38,7 +38,7 @@ export default function Home({ allPostsData }) {
 
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
+              <Link href='https://defi-dapp-farm.vercel.app/'>
                 <a>{title}</a>
               </Link>
               <br />
