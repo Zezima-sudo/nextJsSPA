@@ -1,5 +1,5 @@
 ---
-title: 'Story Squad: A children's app that gamifies reading/writing in the age of remote learning'
+title: "Story Squad: A children's app that gamifies reading/writing in the age of remote learning"
 date: '2021-01-07'
 ---
 
