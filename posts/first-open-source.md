@@ -1,5 +1,5 @@
 ---
-title: "My first two open source PRs just got merged to a Defi project!"
+title: "My first Two Open Source PRs Just got Merged to a Defi Project!"
 date: '2020-12-02'
 ---
 
