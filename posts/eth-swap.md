@@ -2,7 +2,7 @@
 title: "EthSwap: an Ethereum DApp for Swapping ETH for ERC-20 and Vice Versa"
 date: '2021-01-13'
 ---
-<h1>Nine months ago I hadn't written a single line of code.</h1>
+<h3>Nine months ago I hadn't written a single line of code.</h3>
 
 My fascination with blockchain technology is hands-down what pushed me over the edge to finally start coding. Since 2016, I've been what the industry would probably consider a "super user". I was among the first wave of people using Defi technology, stumbling upon EtherDelta in early 2016. I remember buying my first Ethereum on break at one of my old jobs in 2016 so that I could buy an altcoin I was eyeing. I felt so cool going on Bitfinex, purchasing ETH and sending it to EtherDelta to swap for the ERC-20; something felt so good about how I had such command over my money, moving it from a CEX located in China to an exchange that existed purely in the ether, <em>no pun intended</em> to a DEX held together by node operators from all across the world.
 
