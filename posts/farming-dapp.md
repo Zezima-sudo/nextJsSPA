@@ -1,5 +1,5 @@
 ---
-title: 'Ethereum Yield Farming dApp'
+title: 'Ethereum Yield Farming DApp'
 date: '2020-11-01'
 ---
 
