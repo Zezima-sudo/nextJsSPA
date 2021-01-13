@@ -1,9 +1,9 @@
 ---
-title: "Story Squad: A children's app that gamifies reading/writing in the age of remote learning"
+title: "Story Squad: A Children's App which Gamifies Reading/Writing in the Age of Remote Learning"
 date: '2021-01-07'
 ---
 
-<h5>In my last weeks of Lambda we were given the opportunity to contribute to an actual startup company's product, which I will refer to as **"stake holders"**. The project consisted of a large codebase maintained by fellow Lambda students as well as the stake holder's in house devs. I was placed on a team with four other developers, half of which specialized in full stack web dev and the other half data science.</h5>
+<h1>In my last weeks of Lambda we were given the opportunity to contribute to an actual startup company's product, which I will refer to as <b>stake holders</b>. The project consisted of a large codebase maintained by fellow Lambda students as well as the stake holder's in house devs. I was placed on a team with four other developers, half of which specialized in full stack web dev and the other half data science.</h1>
 
 We were to report to our stake holders during our 3 week collaboration period on Story Squad. A normal day consisted of a 20-30 minute standup meeting, discussing our objectives for the day and what we had accomplished yesterday. In working on Story Squad, I was able to improve the game considerably with my team, by means of:
 
