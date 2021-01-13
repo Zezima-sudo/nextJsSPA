@@ -18,7 +18,7 @@ I think they put it best. I've been following this project for a while, and I lo
 
 Success! PRs successfully merged, issues closed. While these were just minor front end visual bugs or improvements, it felt good to create a PR for a real issue on a real open source project, especially one in the realm of blockchain and cryptocurrency.
 
-Many more to come.
+<em>Many more to come.</em>
 
 
 
