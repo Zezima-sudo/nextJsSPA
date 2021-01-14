@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}></section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog (built with next.js 😎<a href="https://github.com/zezimaSudo/nextJsSPA">source code</a>)</h2>
+        <h2 className={utilStyles.headingLg}>Blog (I built this with next.js 😎<a href="https://github.com/zezimaSudo/nextJsSPA">source code</a>)</h2>
         <ul className={utilStyles.list}>
 
           {allPostsData.map(({ id, date, title }) => (
