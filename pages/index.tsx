@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}></section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog<sub> (I built this with next.js 😎<a href="https://github.com/zezimaSudo/nextJsSPA">source code</a>)</sub></h2>
+        <h2 className={utilStyles.headingLg}>Blog<span style={{fontSize: '10px'}}> (I built this with next.js 😎<a href="https://github.com/zezimaSudo/nextJsSPA">source code</a>)</span style={font-size: '10'}></h2>
         
         <ul className={utilStyles.list}>
 
