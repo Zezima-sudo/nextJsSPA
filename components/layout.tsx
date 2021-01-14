@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="my blog"
+          content="Portfolio"
         />
         <meta
           property="og:image"
