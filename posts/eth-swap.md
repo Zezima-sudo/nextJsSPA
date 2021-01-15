@@ -5,7 +5,7 @@ date: '2021-01-13'
 
 <img src="https://camo.githubusercontent.com/6e7aae49f338cf80a4a33b5e3cffea708c2998199dc37422d91e73f98abf7743/68747470733a2f2f692e696d6775722e636f6d2f647570715a794e2e676966">
 
-<a href="https://eth-swap.zezima-sudo.vercel.app/">EthSwap Deployment</a>
+<a href="https://https://swapeth.vercel.app/">EthSwap Deployment</a>
 
 <a href="https://github.com/zezimaSudo/EthSwap">Github</a>
 
